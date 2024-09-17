@@ -1,7 +1,7 @@
 {
   "name": "companion-module-uc-control",
   "version": "1.0.0",
-  "description": "Companion module for controlling a Universal Control (UC) device",
+  "description": "Companion module for controlling Presonus Universal Control (UC) software, tested with the Quantum HD 8",
   "main": "index.js",
   "author": "Zach Van Dyke",
   "license": "MIT",
