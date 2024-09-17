@@ -1,0 +1,26 @@
+ {
+   "manufacturer": "PreSonus",
+   "shortname": "uc-control",
+   "name": "uc-control",
+   "id": "uc-control",
+   "description": "A Companion module for controlling a Universal Control (UC) device",
+   "version": "1.0.0",
+   "license": "MIT",
+   "repository": "git+https://github.com/zachjvandyke/companion-module-uc-control.git",
+   "bugs": "https://github.com/zachjvandyke/companion-module-uc-control/issues",
+   "maintainers": [
+   {
+   "name": "Zach Van Dyke",
+   "email": "zachjvandyke@gmail.com"
+   }
+   ],
+   "runtime": {
+   "type": "node18",
+   "api": "nodejs-ipc",
+   "apiVersion": "2.0.0",
+   "entrypoint": "./index.js"
+  },
+  "legacyIds": [],
+  "products": ["Universal Control"],
+  "keywords": ["audio", "mixer", "control", "PreSonus", "UC", "Universal Control"]
+}

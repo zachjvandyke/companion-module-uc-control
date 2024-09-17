@@ -1,0 +1,11 @@
+{
+  "name": "companion-module-uc-control",
+  "version": "1.0.0",
+  "description": "Companion module for controlling a Universal Control (UC) device",
+  "main": "index.js",
+  "author": "Zach Van Dyke",
+  "license": "MIT",
+  "dependencies": {
+    "@companion-module/base": "^1.10.0"
+  }
+}
