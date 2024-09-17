@@ -170,7 +170,7 @@ class UCControlInstance extends InstanceBase {
           label: 'Channel Number',
           id: 'channel',
           min: 1,
-          max: 100,
+          max: 64,
           default: 1,
           required: true,
         },
