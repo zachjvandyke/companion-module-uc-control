@@ -240,7 +240,7 @@ class UCControlInstance extends InstanceBase {
     const type = Buffer.from('JM', 'ascii');
     const addressPair = Buffer.alloc(4);
     addressPair.writeUInt16LE(0x68, 0); // a=0x68
-    addressPair.writeUInt16LE(0x6a, 2); // b=0x6a
+    addressPair.writeUInt16LE(0x66, 2); // b=0x66
 
     const subMsg = {
       id: 'Subscribe',
@@ -274,7 +274,7 @@ class UCControlInstance extends InstanceBase {
     const type = Buffer.from('KA', 'ascii');
     const addressPair = Buffer.alloc(4);
     addressPair.writeUInt16LE(0x68, 0); // a=0x68
-    addressPair.writeUInt16LE(0x6a, 2); // b=0x6a
+    addressPair.writeUInt16LE(0x66, 2); // b=0x66
 
     const payload = Buffer.concat([type, addressPair]);
 
@@ -291,7 +291,7 @@ class UCControlInstance extends InstanceBase {
     const type = Buffer.from('PV', 'ascii');
     const addressPair = Buffer.alloc(4);
     addressPair.writeUInt16LE(0x68, 0); // a=0x68
-    addressPair.writeUInt16LE(0x6a, 2); // b=0x6a
+    addressPair.writeUInt16LE(0x66, 2); // b=0x66
 
     const nameBuffer = Buffer.from(name, 'utf8');
     const padding = Buffer.alloc(3, 0x00); // 3 bytes of padding
